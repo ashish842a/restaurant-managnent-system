@@ -1,0 +1,54 @@
+.book-table{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.book-table .book-table-left{
+    width: calc(100%/2);
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid red; */
+}
+
+.book-table-left .book-table-left-image{
+    width: 100%;
+    height: 100%;
+}
+
+.book-table-left-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.book-table .book-table-right{
+    width: calc(100%/2);
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.book-table-right .book-table-right-box{
+    width: 100%;
+    height: 100%;
+    background-color: #0f172b;
+    padding: 1rem;
+}
+
+.book-table-right-box .reservation {
+    position: relative;
+    color: #f67528;
+}
+
+.book-table-right-box .reservation::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left:160px;
+    margin-top: 3px;
+    background: #f67528;
+}
