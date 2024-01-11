@@ -5,6 +5,7 @@ import '../../styles/global.css'
 import HomeServices from '../../components/HomeService/HomeServices'
 import BackToTopButton from '../../components/BackToTopButton/BackToTopButton'
 import BookTable from '../../components/BookTable/BookTable'
+import MasterChief from '../../components/MasterChief/MasterChief'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <Hero />
     <HomeServices />
     <BookTable />
+    <MasterChief />
     <BackToTopButton />
     </div>
   )

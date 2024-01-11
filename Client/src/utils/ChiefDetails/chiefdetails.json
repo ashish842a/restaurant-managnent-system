@@ -1,0 +1,22 @@
+[
+    {
+        "image": "./Images/team-1.jpg",
+        "fullName": "John Doe",
+        "designation": "Head Chef"
+    },
+    {
+        "image": "./Images/team-2.jpg",
+        "fullName": "Jane Smith",
+        "designation": "Sous Chef"
+    },
+    {
+        "image": "./Images/team-3.jpg",
+        "fullName": "Mike Johnson",
+        "designation": "Pastry Chef"
+    },
+    {
+        "image": "./Images/team-4.jpg",
+        "fullName": "Sarah Davis",
+        "designation": "Grill Chef"
+    }
+]

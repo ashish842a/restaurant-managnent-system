@@ -1,0 +1,72 @@
+.master-chief{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+}
+
+.head-master-chief{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-master-chief{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+}
+
+.dark-blue{
+    font-weight: 700;
+    color: #130f40;
+}
+
+.master-chief-card{
+    width: calc(100%/4);
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s all cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.master-chief-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.master-chief-card .card-image{
+    width: 70%;
+    height: 70%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.master-chief-card .designation{
+    width: 100%;
+    height: 25%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 3px solid red !important; */
+}
