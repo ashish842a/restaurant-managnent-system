@@ -1,8 +1,11 @@
 import React from 'react'
+import MasterChief from '../../components/MasterChief/MasterChief'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className="about">
+      <MasterChief />
+    </div>
   )
 }
 

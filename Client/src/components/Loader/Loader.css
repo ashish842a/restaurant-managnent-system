@@ -13,10 +13,10 @@
   }
   
   .spinner {
-    width: 70px;
-    height: 70px;
-    border: 10px solid #f3f3f3; /* Light gray border */
-    border-top: 10px solid #feaf39; /* Blue border for animation */
+    width: 50px;
+    height: 50px;
+    border: 7px solid #f3f3f3; /* Light gray border */
+    border-top: 7px solid #feaf39; /* Blue border for animation */
     border-radius: 50%;
     animation: spin 2s linear infinite;
   }

@@ -8,8 +8,8 @@ const MasterChief = () => {
   return (
     <div className='master-chief'>
       <div className="head-master-chief">
-        <h3 className='re'>Team Members</h3>
-        <h1 className='dark-blue'>Our Master Chefs</h1>
+        <h4 className='team-member'>Team Members</h4>
+        <h2 className='dark-blue'>Our Master Chefs</h2>
       </div>
       <div className="bottom-master-chief">
         {ChiefImages && ChiefImages.map((elem, index) => {

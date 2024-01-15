@@ -1,11 +1,17 @@
 .book-table{
     width: 100%;
-    height: 85vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
     /* border: 1px solid red; */
-    padding: 1rem 0.4rem;
+    padding: 1rem 0.8rem;
+
+}
+.book-table-right-box>.white{
+    font-weight: bold;
+    margin-top: -10px;
 }
 
 .book-table .book-table-left{
@@ -35,13 +41,19 @@
     width: 100%;
     height: 100%;
     background-color: #0f172b;
-    padding: 1rem;
+    padding: 2rem 3.3rem 0 3.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .book-table-right-box .reservation {
     position: relative;
-    color: #f67528;
-    font-family: cursive;
+    color: #fea116;
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Pacifico', cursive;
+    
 }
 
 .form-control{
@@ -64,7 +76,7 @@
 
 .booknow{
     text-align: center;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
     margin-bottom: 1rem !important;
 }
 

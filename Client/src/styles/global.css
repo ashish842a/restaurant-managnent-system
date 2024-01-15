@@ -25,6 +25,10 @@ html,body{
   cursor: pointer;
 }
 
+.secondary{
+  opacity: 0.7;
+}
+
 ::-webkit-scrollbar {
     width: 7px;
   }
@@ -44,5 +48,20 @@ html,body{
     background: #555;
   }
 
+  .cursive{
+    position: relative;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #feaf39;
+  }
 
-  
+  .cursive::after{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left:120px;
+    margin-top: 3px;
+    background: #feaf39;
+  }

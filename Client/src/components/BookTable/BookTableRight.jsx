@@ -5,7 +5,7 @@ const BookTableRight = () => {
    <div className="book-table-right">
     <div className="book-table-right-box">
       <h3 className='reservation'>Reservation</h3>
-      <h1 className='white'>Book A Table Online</h1>
+      <h2 className='white'>Book A Table Online</h2>
 
       <div className="input-data">
           
